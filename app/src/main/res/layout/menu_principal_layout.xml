@@ -4,7 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuPrincipalActivity">
+    tools:context=".MenuPrincipalActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+
+    >
+
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="180dp"
@@ -12,7 +17,12 @@
         android:clickable="true"
         android:checkable="true"
         android:focusable="true"
-        android:id="@+id/"
+        android:id="@+id/cadAeroModelos"
+
+        <ImageView
+          android:layout_width="match_parent"
+            android:layout_height="150dp"
+
         />
 
 </LinearLayout>
